@@ -2,7 +2,7 @@
 
 # Componente di Login con Node.js e SQLite
 
-Questo è un componente di login semplice costruito utilizzando HTML, CSS, JavaScript e Node.js. Il componente permette agli utenti di autenticarsi con credenziali memorizzate in un database SQLite.
+Questo è un componente di login semplice costruito utilizzando HTML, CSS, JavaScript, Sweetalert2, Sqlite e Node.js. Il componente permette agli utenti di autenticarsi con credenziali memorizzate in un database SQLite.
 
 ## Descrizione del Progetto
 
