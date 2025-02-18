@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f2f7fc;
+    overflow: hidden;
+}
+
+.login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    max-width: 100%;
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; /* Aggiungi questa linea */
+}
+
+.input-group {
+    margin-bottom: 1.25rem;
+}
+
+
+input {
+    width: 75%;
+    padding: 12px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    input::placeholder {
+        text-align: center;
+        color: #999; /* Colore del placeholder */
+        font-size: 1rem; /* Dimensione del font del placeholder */
+        font-weight: 300; /* Peso del font per un aspetto più sottile */
+        opacity: 0.7; /* Opacità per un effetto più morbido */
+    }
+
+    input:focus::placeholder {
+        color: transparent; /* Rende il placeholder trasparente quando il campo è attivo */
+    }
+
+button {
+    width: 55%;
+    padding: 12px; /* Puoi regolare questo valore */
+    margin-top: 1rem;
+    background: #75aea4;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, transform 0.3s ease-in-out; /* Unisci le due transizioni */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; /* Aggiungi questa linea */
+}
+
+    button:hover {
+        background: #3e9384;
+        transform: scale(0.95);
+    }
+
+
+#message {
+    margin-top: 1rem;
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#errorMessage {
+    margin-top: 1rem;
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+button.swal2-confirm.swal2-styled.swal2-default-outline {
+    width: 100%;
+    background: #75aea4 !important;
+}
+    button.swal2-confirm.swal2-styled.swal2-default-outline:hover {
+        width: 100%;
+        background: #3e9384 !important;
+    }
